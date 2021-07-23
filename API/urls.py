@@ -8,6 +8,7 @@ router = DefaultRouter()
 router.register('studentData',views.StudentDataViewSet,base_name="studentData")
 
 urlpatterns = [
-    path('login/',views.StudentLoginApiView.as_view()),
+    #path('login/',views.StudentLoginApiView.as_view()),
+    path('register/',views.StudentRegisterApiView.as_view()),
     path('',include(router.urls))
 ]
