@@ -38,8 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'my_api',
-    'API'
+    'my_api'
 ]
 
 MIDDLEWARE = [
@@ -122,4 +121,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-AUTH_USER_MODEL = 'API.StudentRegister'
+#AUTH_USER_MODEL = 'my_api.StudentUser'
